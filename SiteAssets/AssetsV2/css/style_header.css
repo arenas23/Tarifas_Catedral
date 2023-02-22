@@ -1,0 +1,132 @@
+@import url('http://fonts.cdnfonts.com/css/gotham-rounded');
+
+:root{
+    --azul_turqueza: #0b93a1;
+	--azul_oscuro: #00141eff;
+	--azul_verdoso: #007e7e;
+	--azul_neutro: #223d56ff; 
+	--azul_claro: #1c83b5ff; 
+	--gris_pastel: #eef4f6ff;
+	--patrones: #001E2D;
+	--texto_blanco: #ffffff;
+    --morado: #40304dff;
+}
+.barra_lenguaje{
+    background: var(--azul_neutro);
+    color: var(--blanco);
+}
+
+.barra_lenguaje a{
+    color: var(--blanco);
+}
+
+.icono_lenguaje{
+    width: 20px;
+}
+
+.icono_red_social{
+    width: 45px;
+    padding: 14px 7px 5px 7px;
+}
+
+.icono_red_social_celular{
+    width: 46px;
+    padding: 7px;
+}
+
+.iconos_redes_sociales_moviles{
+    border-top: 1px solid white;
+    padding-top: 6px;
+}
+
+@media screen and (min-width: 767px){
+    .iconos_redes_sociales_moviles{
+        display: none;
+    }
+}
+
+.iconos_redes_sociales_moviles a{
+    text-decoration: none;
+}
+
+header{
+	background: var(--azul_oscuro);
+	background-image: url('../img/img_header/patron.svg');
+	background-repeat: space;
+    
+}
+.logo {
+    width: 250px;
+    margin-top: -50px;
+}
+
+.logo_celular{
+    width: 35px;
+    margin-right: 7px;
+}
+.redes a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px){
+    header{
+        display: none;
+    }
+    .logo {
+        margin-top: 0;
+    }
+}
+
+.linea_multicolor_header{
+    background-image: url('../img/img_header/linea_multicolor_header.svg');
+    height: 6px;
+}
+
+.link_logo_celular{
+    display: none;
+    font-family: 'Maiandra GD', sans-serif;
+}
+
+.navbar-nav{
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+@media screen and (max-width: 991px){
+    .link_logo_celular{
+        display: block;
+    }
+    .primer_item_menu{
+        margin-top: 20px;
+    }
+    .ultimo_item_menu{
+        margin-bottom: 20px;
+    }
+}
+
+.contenedor_icono_hamburguesa{
+    border: 1px solid #64F4F4 !important;
+}
+
+.icono_hamburguesa{
+    background-image: url('../img/img_header/icono_hamburguesa.svg') !important;
+}
+
+.menu_principal{
+    background: var(--azul_turqueza);
+}
+
+.menu_principal a{
+    color: white;
+    
+}
+
+.elemento_menu{
+    padding: 7px 20px 7px 20px !important;
+}
+.DefaultContentBlock {
+    background: #f3f3f3 !important;
+    color: black !important;
+    height: 2px !important;
+    margin-top: 8px !important;
+    border: white !important;
+    }

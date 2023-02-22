@@ -1,0 +1,488 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --fondoPagina: #203D57;
+    --colorBasico: #D85E5D;
+    --colorStandard: #F2743A;
+    --colorPremium: #619741;
+    --textoBlanco: #ffffff;
+    --colorSeparadorLinea: #9A9D9E;
+    --lineaPasaporte: #858585;
+    --fondoBlanco: #ffffff;
+    --colorTextoLista: #231F20;
+    --lineaPasaporte: #858585;
+    --botonIndicador: #707070;
+    --fondoFormulario: #f3f3f3;
+    --blue: #185ADB;
+    --org: #FF7600;
+    --green: #01937c;
+    --red: #DA0037;
+}
+
+.tarifas {
+    background: url('../img/img_tarifas/patron_fondo.svg'), var(--fondoPagina);
+    background-repeat: repeat space;
+}
+
+.dialogo {
+    background: var(--fondoBlanco);
+    padding: 4% 10%;
+    color: var(--fondoPagina);
+    margin: 0;
+    border-radius: 42px;
+    border: 11px solid var(--colorStandard);
+    font-family: 'Gotham Rounded';
+}
+
+.simbolo_precolombino {
+    max-width: 300px;
+}
+
+.resultado {
+    color: var(--textoBlanco) !important;
+    border: 1px solid;
+    margin-top: 1%;
+    font-family: 'Gotham Rounded';
+    font-size: 20pt;
+}
+
+.titulo_principal {
+    color: var(--textoBlanco) !important;
+    font-size: 40pt;
+}
+
+.flecha_abajo {
+    width: 35px;
+    fill: var(--fondoPagina);
+}
+
+.link_para_pasaportes {
+    font-size: 20pt;
+}
+
+.titulo_seccion {
+    color: var(--fondoBlanco);
+    padding: 2% 3%;
+    font-size: 30pt;
+}
+
+.contenedor_precios {
+    padding: 0 3px 0 3px;
+    font-size: 8pt;
+    font-weight: 350;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.valor_numero {
+    font-size: 14pt;
+}
+
+.inter_caja {
+    margin-top: 6px;
+}
+
+.ancho_n {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.fondo_blanco {
+    margin: 0 auto;
+    background-color: var(--fondoBlanco);
+}
+
+.cabeza_titulo {
+    color: var(--textoBlanco);
+    border-radius: 12px 12px 0 0;
+    padding: 20px 0;
+}
+
+.cabeza_titulo h2,
+.fondo_basico_form {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 25pt;
+    margin: 0;
+    color:#fff;
+}
+
+.cabeza_titulo h2 span {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: 300;
+    font-size: 19pt;
+    display: block;
+    margin-top: -7px;
+}
+
+.lista_items {
+    list-style-type: "- " !important;
+    padding-left: 0;
+}
+
+.lista_items li {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: 350;
+    font-size: 12pt;
+    line-height: 2em;
+    color: var(--colorTextoLista);
+}
+
+.borde_info {
+    border-radius: 5px;
+    height: 137px;
+}
+
+.categoria_tarifa {
+    position: absolute;
+    background: white;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    font-family: 'Gotham Rounded';
+    line-height: 19px;
+    border-radius: 5px 5px 0 0;
+    font-size: 11pt;
+}
+
+.plena {
+    margin-left: -90px;
+    margin-top: 41px;
+    padding: 10px 31px;
+    line-height: 14px;
+}
+
+.descuento {
+    margin-left: -88px;
+    margin-top: 187px;
+    padding: 11px 10px;
+    line-height: 14px;
+}
+
+.c_titulo {
+    padding-left: 3%;
+}
+
+.fondo_basico {
+    background-color: var(--colorBasico);
+}
+
+.fondo_standard {
+    background-color: var(--colorStandard);
+}
+
+.fuente_subtitulo {
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+.color_standard {
+    color: var(--colorStandard);
+}
+
+.color_premium {
+    color: var(--colorPremium);
+}
+
+.fondo_premium {
+    background-color: var(--colorPremium);
+}
+
+.fondo_basico,
+.fondo_standard,
+.fondo_premium {
+    color: var(--textoBlanco);
+    min-height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangulo {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.triangulo_basico {
+    border-top: 15px solid var(--colorBasico);
+}
+
+.triangulo_standar {
+    border-top: 15px solid var(--colorStandard);
+}
+
+.triangulo_premium {
+    border-top: 15px solid var(--colorPremium);
+}
+
+.linea_pasaporte {
+    border-top: 2px solid var(--lineaPasaporte);
+    width: 30%;
+    margin: 15px auto;
+}
+
+.fondo_bandera_basico {
+    background: url('../img/img_tarifas/bandera_colombia.svg'), var(--colorBasico);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 44%;
+    color: var(--textoBlanco);
+}
+
+.fondo_bandera_basico {
+    background: url('../img/img_tarifas/bandera_colombia.svg'), var(--colorBasico);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 44%;
+    color: var(--textoBlanco);
+}
+
+.fondo_bandera_standard {
+    background: url('../img/img_tarifas/bandera_colombia.svg'), var(--colorStandard);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 44%;
+    color: var(--textoBlanco);
+}
+
+.fondo_bandera_premium {
+    background: url('../img/img_tarifas/bandera_colombia.svg'), var(--colorPremium);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 44%;
+    color: var(--textoBlanco);
+}
+
+.moneda_colombiana {
+    font-size: 8pt;
+}
+
+@media (min-width: 768px) {
+    .pestania_plena_descuento {
+        display: none;
+    }
+}
+
+
+/*
+    * Formulario
+    */
+
+.titulo_form {
+    color: var(--fondoBlanco);
+    height: 50px;
+    font-size: 15pt;
+    margin-bottom: 8px;
+}
+
+.fondo_basico_form {
+    background-color: var(--colorBasico);
+}
+
+.fondo_standard_form {
+    background-color: var(--colorStandard);
+}
+
+.fondo_premium_form {
+    background-color: var(--colorPremium);
+}
+
+.formulario_precios {
+    background: var(--fondoFormulario);
+    border-radius: 5px;
+    font-family: 'Gotham Rounded', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .formulario_precios {
+        margin-top: 5%;
+    }
+}
+
+.formulario_precios label {
+    font-size: 11pt;
+}
+
+.restriccion_edad {
+    padding-top: 31px;
+    font-size: 11pt;
+}
+
+.con_descuento_form {
+    background-image: url('../img/img_tarifas/bandera_colombia.svg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 44%;
+}
+
+.color_p_condiciones {
+    color: var(--textoBlanco);
+}
+
+.seccion_informativa {
+    background-color: var(--fondoBlanco);
+}
+
+.contenedor_planes {
+    padding: 20px 20px 20px 0;
+}
+
+.boton_modal {
+    border: #ff6262 2px solid;
+    color: #ff6262;
+    font-size: 23pt;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+input {
+    height: 38px;
+    padding-left: 2%;
+}
+
+.color_input,
+.color_input::placeholder,
+.lista_seleccion {
+    color: var(--botonIndicador);
+    font-weight: 350;
+}
+
+select {
+    width: 100%;
+    height: 38px;
+}
+
+.descripcion_resumen {
+    font-size: 12pt;
+}
+
+.descripcion_resumen span {
+    font-size: 12pt;
+    color: var(--botonIndicador);
+}
+
+.color_motrar_resumen {
+    color: var(--botonIndicador);
+}
+
+.nota_aclaratoria {
+    margin-top: -9px;
+    font-size: 11pt;
+}
+
+.espacio_inferior_extra {
+    padding-bottom: 35px;
+}
+
+@media (max-width: 600px) {
+    .espacio_inferior_extra {
+        padding-bottom: 0;
+    }
+}
+
+
+/* indicadores importantes */
+
+.indicador {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: 'Gotham Rounded';
+}
+
+.indicador .line {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    height: 10px;
+    background: #ddd;
+    width: 99%;
+    left: 1px;
+    z-index: 0;
+}
+
+.indicador .line span {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 0;
+    background: var(--green);
+}
+
+.indicador p {
+    position: relative;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #ddd;
+    background: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.indicador p.active {
+    border-color: var(--green);
+    color: var(--green);
+}
+
+.tab {
+    display: none;
+}
+
+.tab.ver_formulario {
+    display: block;
+}
+
+.tab p {
+    margin-bottom: 18px;
+}
+
+form .boton_formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    font-family: 'Gotham Rounded';
+}
+
+form .boton_formulario button {
+    padding: 12px 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.espacio_entre_botones {
+    width: 1%;
+}
+
+form .boton_formulario button.antes {
+    background: #ff5252;
+    color: white;
+}
+
+form .boton_formulario button.antes:hover {
+    background: #e10101;
+    color: white;
+}
+
+form .boton_formulario button.despues {
+    background: var(--green);
+    color: #fff;
+}
+
+form .boton_formulario button.despues:hover {
+    background: #6d52ff;
+    color: #fff;
+}
+
+
+/*boton comprar aquÃ­*/

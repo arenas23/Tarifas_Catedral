@@ -1,0 +1,117 @@
+        @import url('http://fonts.cdnfonts.com/css/gotham-rounded');
+         :root {
+            --azul_oscuro: #00141e;
+            --azul_celeste: #15B9E3;
+            --azul_turqueza_oscuro: #055160;
+            --blanco: #ffffff;
+            --gris_tenue: #727272;
+        }
+        
+        .contenedor_footer {
+            background: url(../img/img_footer/patron_footer.svg) var(--azul_oscuro);
+            background-repeat: space;
+            color: white;
+        }
+        
+        footer h1,
+        footer h2,
+        footer h3,
+        footer h4,
+        footer p {
+            font-family: 'Gotham Rounded', sans-serif;
+        }
+        
+        footer p {
+            padding: 0;
+        }
+        
+        footer a {
+            color: var(--blanco);
+        }
+        
+        footer a:hover {
+            color: var(--azul_celeste);
+        }
+        
+        footer ul {
+            padding: 0;
+        }
+        
+        footer ul li {
+            line-height: 34px;
+        }
+        
+        .linea_multicolor {
+            background-image: url('../img/img_footer/linea_multicolor.svg');
+            height: 6px;
+        }
+        
+        .container_info_footer {
+            background-color: var(--azul_turqueza_oscuro);
+            color: var(--blanco);
+            margin: 0;
+        }
+        
+        .redes a,
+        .redes a:hover {
+            color: transparent;
+        }
+        
+        .icono_red_social_footer {
+            width: 45px;
+            padding: 0px 7px 0px 7px;
+        }
+        
+        .titulo_footer {
+            border-top: 1px solid var(--gris_tenue);
+            padding-top: 10px;
+        }
+        
+        .linea_decoracion_footer {
+            width: 150px;
+            padding-bottom: 23px;
+        }
+        
+        .lista_footer_col {
+            list-style: none;
+        }
+        
+        .footer_columna_dos {
+            text-align: center;
+        }
+        
+        .footer_columna_tres {
+            text-align: right;
+        }
+        
+        @media screen and (max-width: 767px) {
+            .footer_columna {
+                text-align: center;
+                padding: 3%;
+            }
+        }
+        
+        .info_footer p {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .logo_footer {
+            width: 120px;
+            padding-bottom: 12px;
+        }
+        
+        .icon_wapp {
+            border-radius: 50%;
+            fill: #25D366;
+            position: fixed;
+            z-index: 15;
+            bottom: 4%;
+            right: 3%;
+            background: white;
+            border: white 5px solid;
+        }
+        
+        .icon_wapp:hover {
+            fill: #128C7E;
+        }

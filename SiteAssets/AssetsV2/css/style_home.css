@@ -1,0 +1,451 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-rounded');
+
+:root{
+  --morado: #8217b8;
+  --morado_armonico: #704aad;
+  --turqueza: #06cbc1;
+  --azul_marino: #17a2b8;
+  --verde: #55b300;
+  --piel: #ffe484;
+  --rojo: #ff5050;
+  --dorado: #ffb735;
+  --dorado_mice: #e8ab5d;
+  --blanco: #ffffff;
+  --negro: #000000;
+  --morado_tenue: #8897ff;
+  --rosado_crema: #ffbdf7;
+  --gris_crema: #ededed;
+  --azul_acero: #385daf;
+}
+
+h1,h2,h3,h4,h5,h6,b{
+  font-family: 'Gotham Rounded', sans-serif;
+}
+
+/*slider*/
+
+.titulo_slider{
+  text-shadow: 2px 2px 5px var(--negro);
+  margin: 0;
+}
+
+.subtitulo_slider{
+  /*background-color: rgb(22 22 22 / 60%);*/
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  padding: 1%;
+}
+
+.boton_slider_anterior{
+  background: rgb(48,0,106);
+  background: linear-gradient(90deg, rgba(48,0,106,1) 0%, rgba(40,219,255,0) 100%);
+}
+
+.boton_slider_siguiente{
+  background: rgb(40,219,255);
+  background: linear-gradient(90deg, rgba(40,219,255,0) 0%, rgba(48,0,106,1) 100%);
+}
+
+.carousel-inner .carousel-item > img {
+  -webkit-animation: thing 60s;
+  -o-animation: thing 60s;
+  animation: thing 60s;
+}
+@keyframes thing {
+  from {
+     transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  .carousel-inner .carousel-item > img {
+  height: 400px;
+  object-fit: cover;
+ }
+}
+
+/*fin slider*/
+
+
+/*titulo principal home*/
+
+.titulo_principal_home span{
+  color: var(--azul_acero);
+}
+
+.logo_catedral_home{
+  width: 300px;
+}
+
+/*fin titulo principal home*/
+
+/* MICE */
+
+.CTA_MICE{
+  /* background: url(img/patron_mice.svg) #231a30; */
+  background: url('../img/img_home/eventos_mice.jpg');
+  background-position: center;
+  color: var(--blanco);
+  object-fit: cover;
+  padding: 4% 0 4% 0;
+  text-shadow: 2px 2px 5px var(--negro);
+}
+
+.subtitulo_mice{
+  color: var(--dorado_mice);
+}
+
+.icono_mice{
+  height: 100px;
+}
+
+.parrafo_CTA_MICE p{
+  font-size: 15pt;
+  line-height: 27px;
+}
+
+
+.CTA_MICE img{
+  width: 150px;
+}
+
+.boton_mice{
+    background: var(--dorado_mice);
+    color: #000000;
+    padding: 5% 0 5% 0;
+    text-shadow: none;
+}
+
+.boton_mice:hover{
+    background: #ff469c;
+}
+
+/* FIN MICE */
+
+
+.icono_vehiculo{
+  height: 60px;
+}
+.icono_servicio_cliente{
+  width: 200px;
+}
+
+.boton_correo_servicio_cliente{
+  color: var(--blanco);
+  padding: 15px;
+  background: var(--azul_acero);
+  width: 300px;
+  margin: 0 auto;
+}
+.link_boton_correo_servicio_cliente:hover{
+  text-decoration: none;
+}
+
+.boton_correo_servicio_cliente:hover{
+  background: var(--dorado);
+}
+
+.icono_redes_section{
+  padding: 0 12px 0 12px;
+  width: 80px;
+}
+
+.seccion_redes_home {
+  background: url('../img/img_home/patron_redes.svg') var(--gris_crema);
+  padding: 7% 0 7% 0;
+}
+
+
+.intenciones_santa_misa{
+  background: url('../img/img_home/patron_intenciones.svg') var(--azul_acero);
+  color: var(--blanco) !important;
+  padding: 4% 0 4% 0;
+}
+
+
+@media screen and (max-width: 991px){
+  .parrafo_intenciones_misa p{
+    line-height: 21px;
+  }
+}
+
+.parrafo_intenciones_misa a{
+  color: var(--rosado_crema);
+}
+
+
+  .seccion_redes_home a{
+    text-decoration: none;
+  }
+
+  .icono_sac{
+    font-size: 45pt;
+    padding-bottom: 20px;
+    color: var(--morado_tenue);
+  }
+
+  .container_atracciones h4{
+    font-size: 14pt;
+  }
+
+  .container_atracciones a{
+    text-decoration: none;
+  }
+
+  .icono_atraccion{
+    height: 100px;
+  }
+
+
+  .lista_lineas_atencion{
+      padding: 0;
+      list-style: none;
+  }
+
+  .linea_gris{
+      width: 170px;
+  }
+
+  .boton_servicio_cliente{
+    color: var(--blanco);
+    padding: 17px 0 17px 0;
+  }
+
+  .botones_servicio_cliente a{
+    text-decoration: none;
+  }
+
+  .boton_servicio_cliente_uno{
+    background: var(--azul_marino);
+  }
+
+  .boton_servicio_cliente_dos{
+    background: var(--rojo);
+  }
+
+  .boton_servicio_cliente_tres{
+    background: var(--verde);
+  }
+
+  .boton_servicio_cliente_cuatro{
+    background: var(--dorado);
+    color: #000000;
+  }
+
+  .boton_servicio_cliente_uno:hover,.boton_servicio_cliente_dos:hover,.boton_servicio_cliente_tres:hover, .boton_servicio_cliente_cuatro:hover{
+    background: #5baf38;
+    color: white;
+    text-decoration: none;
+  }
+
+/*ESTILOS ADICIONALES*/
+
+.fluid-width-video-wrapper {
+padding-top: 50% !important;
+}
+.container_atracciones h4 {
+    height: 70px;
+    }
+    .titulo_slider {
+    color: white;
+}
+.col-12.text-center h1 {
+
+    color: black;
+    }
+    .col-md-4.footer_columna h3{
+        color: white;
+}
+.redes.mx-auto h3 {
+        color: white;
+
+}
+
+.icono_red_social:hover {
+transform: scale(1.2);
+}
+.icono_redes_section:hover  {
+transform: scale(1.2);
+}
+.icono_red_social_footer:hover{
+transform: scale(1.2);	
+}
+
+
+.portada_principal {
+    padding: 12%;
+    background-size: 100% auto !important;
+    background-position: center !important;
+    color: white;
+}
+
+.portada_musical {
+    background: url('/SiteAssets/AssetsV2/img/img_recorrido/angel.jpg');
+}
+.portada_musical2 {
+    background: url('/SiteAssets/AssetsV2/img/img_recorrido/capilla.jpg');
+}
+.portada_musical3 {
+    background: url('/SiteAssets/AssetsV2/img/img_recorrido/via.jpg');
+}
+
+
+.imagenes_musica {
+    width: 250px ;
+    transition: 0.3s;
+}
+
+.imagenes_musica:hover {
+    box-shadow: 10px 5px 8px black;
+}
+
+.titulo_recorrido {
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+.recorrido_pieza a {
+    color: black;
+}
+
+.recorrido_pieza a:hover {
+    color: #8217b8;
+}
+.ms-rtestate-field h2{
+    color: #212529;
+}
+
+/**-------------------------------------        
+           Sharepoint Styles
+-------------------------------------**/
+  #MSOTlPn_MainTD{
+    display: block;
+    position: fixed;
+    top: 73px;
+    right: 10px;
+    z-index: 1000;
+    height: 90% !important;
+    width: auto !important;
+    overflow-y: auto;
+    background: transparent;	
+}
+.ms-signInLink{
+     display:none !important;
+   
+   }
+#ms-help{
+	display:none;
+}
+
+   .ms-core-webpartadder{
+	  z-index:10000;
+}
+  
+      
+   #s4-bodyContainer{
+      padding:0 !important;
+      margin: 0 !important;
+    }
+    
+    .ms-rteStyle-Titulo_Principal {
+		-ms-name: "Titulo_Principal";
+		font-family: 'Oswald', sans-serif !important;
+		color: #2a2a2a !important;
+	    font-weight:400;
+		text-transform: uppercase !important;
+		font-size: 24px !important;
+		line-height: 30px !important;
+     }
+
+
+		.ms-rteStyle-Subtitulo {
+			-ms-name: "Subtitulo";
+			font-family: 'Oswald', sans-serif !important;
+			color: #2a2a2a !important;
+			font-weight: 400 !important;
+			text-align: justify !important;
+			font-size: 1.3em !important;
+			line-height: 18px !important;
+		}
+		
+		.ms-rteStyle-Texto_Normal {
+			-ms-name: "Texto Normal";
+			font-family: 'Oswald', sans-serif !important;
+			color: #2a2a2a;
+			text-align: justify !important;
+			font-size: 1em;
+			line-height: 18px !important;
+			font-weight: 300 !important;
+			margin-top: 10px !important;
+		}
+		
+		.ms-rteStyle-Texto_Normal_Resaltado {
+			-ms-name: "Texto Normal Resaltado";
+			font-family: 'Oswald', sans-serif !important;
+			color:  #333 !important;
+			text-align: justify !important;
+			font-size: 1em !important;
+			line-height: 18px !important;
+			font-weight: 400 !important;
+			margin-top: 10px !important;
+		}
+		
+		.ms-wpadder{
+		   overflow:hidden;	   
+		}
+       .sala_prensa {
+		    margin: 3px !important;
+		    text-align: justify;
+		    padding-bottom: 20px;
+        }
+		.ImgNoticia{
+		    width: 395px;
+		    height:auto;
+		}
+		
+		.ImgNoticia img{
+		    width: 98%;
+		    height:auto
+		 }
+		.image{
+			width: 345px;
+		    height: auto;
+		}
+     .article .date-line{
+  	  display:inline-block;
+     }
+	.article .article-header {
+	    zoom: 1;
+	    display: block;
+	    margin-bottom: 15px;
+	    min-height:87px;
+	 }
+	 .search{
+	   width:100%
+      }
+      
+      h2.pt-2 {
+      color: white;
+}
+h1.text-center{
+      color: black;
+}
+.ms-rtestate-field h4, h4.ms-rteElement-H4 {
+      color: black;
+}
+.col-12.text-center.txt-black{
+    color: black;	
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 3800px) { 
+.dflex{
+	display: flex;
+	margin-right: -15px;
+	margin-left: -15px;
+	flex-direction: row !important;
+	flex-wrap: inherit !important;
+}
+}
