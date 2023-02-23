@@ -345,7 +345,7 @@ async function productos() {
                 impuestos = [ {
                     idTipoImpuesto: productoTemp.jImpuestos[0].idTipoImpuesto,
                     dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                    dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                    dPorcentaje:parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                     dValorImpuesto: input_cantidad_69 * iva
                 }]
             }
@@ -364,7 +364,7 @@ async function productos() {
                 impuestos = [ {
                     idTipoImpuesto: productoTemp.jImpuestos[0].idTipoImpuesto,
                     dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                    dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                    dPorcentaje:parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                     dValorImpuesto: input_cantidad_74 * iva
                 }]
             }
@@ -385,7 +385,7 @@ async function productos() {
                 impuestos = [ {
                     idTipoImpuesto: productoTemp.jImpuestos[0].idTipoImpuesto,
                     dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                    dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                    dPorcentaje:parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                     dValorImpuesto: input_cantidad_296 * iva
                 }]
             }
@@ -407,7 +407,7 @@ async function productos() {
                     {
                         idTipoImpuesto:productoTemp.jImpuestos[0].idTipoImpuesto,
                         dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                        dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                        dPorcentaje: parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                         dValorImpuesto:input_cantidad_297 * iva
                     }
                 ];
@@ -429,7 +429,7 @@ async function productos() {
                     {
                         idTipoImpuesto:productoTemp.jImpuestos[0].idTipoImpuesto,
                         dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                        dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                        dPorcentaje: parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                         dValorImpuesto:input_cantidad_293 * iva
                     }
                 ];
@@ -452,7 +452,7 @@ async function productos() {
                 impuestos = [ {
                     idTipoImpuesto: productoTemp.jImpuestos[0].idTipoImpuesto,
                     dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                    dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                    dPorcentaje:parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                     dValorImpuesto: input_cantidad_5 * iva
                 }]
             }
@@ -471,7 +471,7 @@ async function productos() {
                 impuestos = [ {
                     idTipoImpuesto: productoTemp.jImpuestos[0].idTipoImpuesto,
                     dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                    dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                    dPorcentaje:parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                     dValorImpuesto: input_cantidad_8 * iva
                 }]
             }
@@ -492,7 +492,7 @@ async function productos() {
                 impuestos = [{
                     idTipoImpuesto: productoTemp.jImpuestos[0].idTipoImpuesto,
                     dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                    dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                    dPorcentaje:parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                     dValorImpuesto: input_cantidad_294 * iva
                 }]
             }
@@ -512,7 +512,7 @@ async function productos() {
                 impuestos = [ {
                     idTipoImpuesto: productoTemp.jImpuestos[0].idTipoImpuesto,
                     dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                    dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                    dPorcentaje: parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                     dValorImpuesto: input_cantidad_295 * iva
                 }]
             }
@@ -534,7 +534,7 @@ async function productos() {
                     {
                         idTipoImpuesto:productoTemp.jImpuestos[0].idTipoImpuesto,
                         dValorBase: productoTemp.jImpuestos[0].dValorBase,
-                        dPorcentaje: productoTemp.jImpuestos[0].dPorcentaje,
+                        dPorcentaje: parseInt( productoTemp.jImpuestos[0].dPorcentaje),
                         dValorImpuesto:input_cantidad_292 * iva
                     }
                 ];
